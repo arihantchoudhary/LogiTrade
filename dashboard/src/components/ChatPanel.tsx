@@ -25,7 +25,7 @@ export const ChatPanel: React.FC<ChatPanelProps> = ({ startLocation, endLocation
   useEffect(() => {
     const welcomeMessage = {
       id: '1',
-      content: `Welcome to GlobalTrade Insight AI. I can help answer your questions about the trade route from ${startLocation} to ${endLocation}. What would you like to know about shipping, regulations, or risk factors?`,
+      content: `Welcome to LogiTrade Assistant. I can help answer your questions about the trade route from ${startLocation} to ${endLocation}. What would you like to know about shipping, regulations, or risk factors?`,
       sender: 'ai' as const,
       timestamp: new Date()
     };

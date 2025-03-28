@@ -43,7 +43,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
           {/* Logo */}
           <div className="flex items-center justify-center h-16 border-b border-gray-200 dark:border-gray-800">
             <div className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-indigo-600 bg-clip-text text-transparent">
-              GlobalTrade Insight
+              LogiTrade
             </div>
           </div>
           
@@ -80,7 +80,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
           <div className="p-4 border-t border-gray-200 dark:border-gray-800">
             <div className="flex items-center space-x-3">
               <div className="h-9 w-9 rounded-full bg-gradient-to-br from-blue-400 to-indigo-600 flex items-center justify-center text-white font-semibold text-sm">
-                GT
+                LT
               </div>
               <div className="flex-1 min-w-0">
                 <p className="text-sm font-medium text-gray-900 dark:text-gray-100 truncate">
